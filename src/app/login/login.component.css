@@ -1,0 +1,77 @@
+/* Login container styles */
+.login-container {
+    background: #ffffff;
+
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(5, 40, 117, 0.1);
+    padding: 40px;
+    max-width: 400px;
+    margin: 40px auto;
+  }
+  
+  .login-container h2 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    color: #343a40;
+    text-align: center;
+  }
+  
+  .login-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-container label {
+    margin-bottom: 5px;
+    font-weight: 500;
+  }
+  
+  .login-container input[type="text"],
+  .login-container input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 1em;
+    margin-bottom: 15px;
+  }
+  
+  .login-container button[type="submit"] {
+    background: #f03704;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-bottom: 10px;
+  }
+  
+  .login-container button[type="submit"]:hover {
+    background: #0056b3;
+  }
+  
+  .login-container .register-btn {
+    background: #0747dd;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    cursor: pointer;
+    font-size: 1em;
+    width: 100%;
+  }
+  
+  .login-container .register-btn:hover {
+    background: #089222;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .login-container {
+      margin: 20px;
+      padding: 15px;
+    }
+  }
+  

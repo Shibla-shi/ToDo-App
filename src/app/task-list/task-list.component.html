@@ -1,0 +1,14 @@
+<div *ngIf="tasks && tasks.length > 0; else noTasks">
+  <div *ngFor="let task of tasks">
+    <app-task-item
+      [task]="task"
+      (statusChange)="updateTaskStatus($event)"
+      (taskClone)="cloneTask($event)"
+      (taskDelete)="deleteTask($event)"
+    ></app-task-item>
+  </div>
+</div>
+<ng-template #noTasks>
+  <p>No tasks available.</p>
+</ng-template>
+<button (click)="addNewTask()">Add New Task</button>

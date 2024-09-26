@@ -1,0 +1,35 @@
+/* task-list.component.css */
+.task-list-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .task-list-container > div {
+    margin-bottom: 20px;
+  }
+  
+  .task-list-container p {
+    text-align: center;
+    font-size: 18px;
+    color: #888;
+    margin: 40px 0;
+  }
+  
+  .task-list-container button {
+    display: block;
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    margin: 20px auto;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .task-list-container button:hover {
+    background: #218838;
+  }
+  
